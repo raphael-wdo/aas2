@@ -1,0 +1,9 @@
+To compile on server:
+javac -cp .:mazeSolver/SampleSolver.jar *.java
+
+To run on server:
+java -cp .:mazeSolver/SampleSolver.jar MazeTester inputFilename n
+
+To display maze:
+export DISPLAY=:0
+java -Djava.awt.headless=false -cp .:mazeSolver/SampleSolver.jar MazeTester example1.para y
